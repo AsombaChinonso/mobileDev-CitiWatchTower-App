@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/app.min.css">
+    <!--custom font used file a report-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+    <title>Hello World</title>
+</head>
+
+<body>
+    <div class="app-page" data-page="home">
+        <div class="app-topbar">
+            <div class="app-title">Home</div>
+        </div>
+
+        <div class="app-content">
+            <div class="app-section">
+                <img src="img/icon_logo.PNG" />
+                <h1>CityWatchTower</h1>
+                <h4>...A Citizens Reporting Solution App in which Users can submit an incident i.e. Accident, Fighting, Rioting & lots more</h4>
+            </div>
+
+
+            <div class="app-section">
+                <div class="app-button" data-target="page2">Let's Go</div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="app-page" data-page="page2">
+        <div class="app-topbar">
+            <div class="app-button left" data-back></div>
+            <div class="app-title">Welcome</div>
+        </div>
+
+        <div class="app-content">
+            <div class="app-section">
+                <img src="img/warning.png" />
+                <div class="font-1">Please ensure that your phone is connected to your local network!</div>
+            </div>
+
+            <label class="welcome"><h4>Become a Member</h1></label>
+
+            <div class="app-section">
+
+                <input id="enter_email" class="app-input" placeholder="User-name" />
+                <input id="enter_password" class="app-input" placeholder="Password" type="password" type="submit" />
+
+                <div class="verify">
+                    <div class="app-button blue">Login</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="app-page" data-page="page3">
+        <div class="app-topbar">
+            <div class="app-button left" data-back></div>
+            <div class="app-title">File a Report</div>
+        </div>
+
+        <div class="app-content">
+
+
+            <div class="app-section">
+                <div class="pictures">
+                    <div class="app-button" data-target="page4">Older Report</div>
+                </div>
+            </div>
+
+            <div class="app-section">
+                <h3>File a new report </h3>
+            </div>
+
+            <div class="app-section">
+                <label for="enter_username">User-name</label>
+                <input id="enter_username" class="app-input" placeholder="Your name" />
+                <label for="enter_report">Incident</label>
+                <textarea id="enter_report" class="app-input" placeholder="Report Incident"></textarea>
+                <label for="enter_status">Send as</label>
+                <select id="enter_status" class="app-input">
+                          <option value=" ">...</option>
+                          <option value="draft">Send as Draft</option>
+                          <option value="publish">Publish</option>
+                        </select>
+
+                <!--use this when referring to any thing that has to do with a event in jquery-->
+                <!--notice i created a class for this button, for some reasons, it is need in appjs to make your javascript visible-->
+
+                <div class="submit">
+                    <div class="app-button blue">Send</div>
+                </div>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="container" id="holder">
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="app-page" data-page="page4">
+        <div class="app-topbar">
+            <div class="app-button left" data-back></div>
+            <div class="app-title">Older Report</div>
+        </div>
+
+        <div class="app-content">
+            <div class="app-section">
+                <div class="fetch">
+                    <div class="app-button dark-blue">View post</div>
+                </div>
+            </div>
+
+
+            <div class="app-section">
+                <div class="wrapper" id="first">
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/app.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/my.js"></script>
+</body>
+
+</html>
