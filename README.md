@@ -2,10 +2,10 @@
 This is a Citizens Reporting Solution App in which Users can submit an incident e.g Accident, Fighting, Rioting etc. to the specific web-site for emergency response solution, the owners of these web-site could be an organization, Government, or private body, depending on ur choice
 Users of the same application on thier mobile phones will be able to view the Submitted Incidents, and also submit report,
 
-Because this app is still under developemnt, i will be using my wordpress web-blog page to review submited report, the link will be provided below
+Because this app is still under developement, i will be using my wordpress web-blog page to review submited report, the link will be provided below
 
 These project is still under developement,
- so ideas on feature are welcome, as i will be releasing more updated version of the software
+ so ideas on its features are welcome, comlexities regardless are welcomed, as i will be releasing more updated version of the software
  
  Upcoming Features include
  
