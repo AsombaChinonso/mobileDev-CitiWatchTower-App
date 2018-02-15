@@ -1,5 +1,5 @@
 # mobileDev
-This is a Citizens Reporting Solution App in which Users can submit an incident e.g Accident, Fighting, Rioting etc. to the specific web-site for emergency response solution, 
+This is a Citizens Reporting Solution App in which Users can submit an incident e.g Accident, Fighting, Rioting etc. to the specific web-site for emergency response solution, the owners of these web-site could be an organization, Government, or private depending on ur choice
 Users of the same application on thier mobile phones will be able to view the Submitted Incidents, and also submit report,
 
 Because this app is still under developemnt, i will be using my wordpress web-blog page to review submited report, the link will be provided below
