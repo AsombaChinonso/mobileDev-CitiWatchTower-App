@@ -27,6 +27,11 @@ IMPORTANT NOTE TO USER!
 by default without any password or username, 
 clicking the login button gives you a message with the username & password 
 
+>Make sure you have cordova installed on your machine,
+> u could create a new cordova project
+> replace the www folder, index.html and config.xml file respectively 
+> Well, i think thats all :)
+
 Thanks & Enjoy!
 
 Mobile app development (IONIC & CORDOVA)
