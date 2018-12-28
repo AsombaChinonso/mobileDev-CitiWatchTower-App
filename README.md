@@ -32,6 +32,8 @@ clicking the login button gives you a message with the username & password
 > replace the www folder, index.html and config.xml file respectively 
 > Well, i think thats all :)
 
+### Find me at : https://acemmanuel.my-free.website/about-me
+
 Thanks & Enjoy!
 
 Mobile app development (IONIC & CORDOVA)
